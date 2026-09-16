@@ -8,7 +8,7 @@ services:
       APP_PORT: 80
 
   app:
-    image: akaunting/akaunting:3.1.21@sha256:918bbc77981e5b96ab6aa6838491cfa7c98cb4ee7bbf9532ee083e7e66d04255
+    image: akaunting/akaunting:3.1.21@sha256:50940112be48a229a2f567dc50ace9886fe5b14e1fe33f0232e704d0fb96f29f
     # does not work rootless
     #user: "1000:1000"
     restart: on-failure
