@@ -24,7 +24,7 @@ services:
       db:
         condition: service_healthy
   db:
-    image: docker.io/library/postgres:17@sha256:fe3f571d128e8efadcd8b2fde0e2b73ebab6dbec33f6bfe69d98c682c7d8f7bd
+    image: docker.io/library/postgres:17@sha256:97fb53376be3e4fb1a8a61421daa69dcc3bf2fa39bda3259f5245f9a455af1a9
     restart: on-failure
     environment:
       POSTGRES_USER: satwatch
